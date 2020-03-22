@@ -1,0 +1,237 @@
+---
+layout: default
+---
+
+<!doctype html>
+<html lang="id-ID">
+
+<head>
+    <meta charset="utf-8">
+    <title>The VIM Experience</title>
+    <script src="/cdn-cgi/apps/head/8MhurJXoMj8lLTPQ85F0biC88Z8.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="shortcut icon" href="https://lightning.nafcodes.com/cargo/favicon-5ed3591b57f6a4f0d5cb82c6680b33bb1058fe757c71ccb094952824e7e00b17.ico">
+    <link rel="icon" sizes="196x196" href="https://lightning.nafcodes.com/cargo/apple-touch-icon-d9dcfd2dfcd7ed475d31232aa402d68f4028c302edcc3421b3fb4c244a5cba1c.png">
+    <link rel="mask-icon" href="https://lightning.nafcodes.com/cargo/default-ef4942fc393493a426f1cadc1e9a72ae0ebaa5985237d55ad567a61a8f4c594f.svg" color="black">
+    <meta name="generator" content="nafcodes.com" />-->
+    <meta name="description" content="For the Vim crowd, my .vimrc file is available on Github. I got introduced to Vim 7 years ago. Getting started with Vim was a challenge. I think it was a typical experience: Vim has a steep learning curve and requires lots of customization to hit... | Maulida Dzul Fikri | nafcodes" />
+    <link rel="canonical" href="/" />
+    <!--<meta property="og:url" content="https://emde.web.id/vim" />
+    <meta property="twitter:site" content="@nafcodes" />
+    <meta property="twitter:title" content="The VIM Experience" />
+    <meta property="twitter:description" content="For the Vim crowd, my .vimrc file is available on Github. I got introduced to Vim 7 years ago. Getting started with Vim was a challenge. I think it was a typical experience: Vim has a steep learning curve and requires lots of customization to hit..." />
+    <meta property="twitter:creator" content="@" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://nafcodesusercontent.com/sLwFQybFpiiidA8cttk33B0xspap.gif" />
+    <meta property="twitter:domain" content="http://maulidadzulfikri.com" />
+    <meta property="og:title" content="The VIM Experience &bull; Maulida Dzul Fikri" />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="For the Vim crowd, my .vimrc file is available on Github. I got introduced to Vim 7 years ago. Getting started with Vim was a challenge. I think it was a typical experience: Vim has a steep learning curve and requires lots of customization to hit... | Maulida Dzul Fikri | nafcodes" />
+    <meta property="og:image" content="https://nafcodesusercontent.com/sLwFQybFpiiidA8cttk33B0xspap.gif" />
+    <meta property="og:site_name" content="Maulida Dzul Fikri on nafcodes" />
+    <meta property="fb:app_id" content="346346195413177" />
+    <link rel="alternate" type="application/rss+xml" href="https://emde.web.id//feed" />-->
+
+    <link rel="stylesheet" media="all" href="https://lightning.nafcodes.com/cargo/build.blog-58a8d514efb3a419561758201b0712a523a6a56eee13e4f2175d980389ef603f.css" data-turbolinks-track="reload" />
+
+    <script src="https://lightning.nafcodes.com/cargo/build.blog-67713352faa669fc3d3c21006a5f50078a192dfbedf9fbd8569739b90c880605.js" data-turbolinks-track="reload"></script>
+
+
+</head>
+
+<body class="overlord blog">
+
+    <style scoped>
+        figure.avatar a,
+        figure#user_logo a,
+        figure#user_foot a,
+        nav#overlord.user_top figure#logo_top a,
+        figure.kudo.complete div.filling {
+            background-image: url('https://nafcodesusercontent.com/aFjM4Bj7zgJVkagR67Xkki17580xsbap_medium.png')
+        }
+
+        figure.kudo.activated div.filling,
+        figure.kudo.complete div.filling {
+            background-color: #050213;
+        }
+
+        figure.kudo.activated a,
+        figure.kudo.complete a {
+            border-color: #050213;
+        }
+
+        blockquote,
+        a blockquote,
+        div#readnext:hover span.flank_title,
+        div#foot_more:hover a,
+        div#foot_userbar a#bottom_tagline span:hover,
+        article.linked h1.article_title a:hover,
+        a.continue_button:hover,
+        article p a:hover,
+        ul#lightning_drop,
+        figure#user_logo,
+        figure#user_foot,
+        ul#user_links li a:hover,
+        ul#foot_links li a:hover,
+        a.buttonize:hover,
+        button.buttonize:hover,
+        a.buttonize.outline:hover,
+        button.buttonize.outline:hover,
+        nav.pagination span.next a:hover,
+        nav.pagination span.prev a:hover,
+        section#readnext:hover p span,
+        nav#overlord.user_top figure#logo_top {
+            border-color: #050213;
+        }
+
+        figure.avatar,
+        nav#overlord.user_top figure#logo_top a,
+        ul#user_links li a:hover,
+        ul#foot_links li a:hover,
+        a.buttonize:hover,
+        button.buttonize:hover,
+        a.buttonize.outline:hover,
+        button.buttonize.outline:hover,
+        nav.pagination span.next a:hover,
+        nav.pagination span.prev a:hover,
+        figure#user_logo a,
+        figure#user_foot a {
+            background-color: #050213;
+        }
+
+        h6.separator_title.read_first,
+        header#user_top h2 a,
+        footer#blog_foot h5 a,
+        article.post h1 a:hover,
+        div.preview strong,
+        nav#overlord h2#nav_title.user_top a,
+        section#readnext:hover h3,
+        section#readnext:hover p span {
+            color: #050213;
+        }
+
+        @keyframes titlePulse {
+            0% {
+                color: #000000;
+            }
+
+            50% {
+                color: #050213;
+            }
+
+            100% {
+                color: #000000;
+            }
+        }
+
+        @-moz-keyframes titlePulse {
+            0% {
+                color: #000000;
+            }
+
+            50% {
+                color: #050213;
+            }
+
+            100% {
+                color: #000000;
+            }
+        }
+
+        @-webkit-keyframes titlePulse {
+            0% {
+                color: #000000;
+            }
+
+            50% {
+                color: #050213;
+            }
+
+            100% {
+                color: #000000;
+            }
+        }
+    </style>
+
+    <figure id="loading">&nbsp;</figure>
+
+    <nav id="overlord" class="user_top">
+        <figure id="logo_top" class="">
+            <a href="/">nafcodes</a>
+        </figure>
+        <h2 id="nav_title" class="user_top"><a href="https://emde.web.id/">Maulida Dzul Fikri</a></h2>
+        <figure id="hamburger">
+            <a href="#menu" id="hamburger_button">Menu</a>
+        </figure>
+        <ul id="dropdown" class="onblog">
+            <li class="dropdown_message">
+                <a href="https://emde.web.id/">Maulida Dzul Fikri is writing on the <span class="logoize">nafcodes</span> network.</a>
+            </li>
+            <li><a href="https://emde.web.id/" target="_blank">maulidadzulfikri.com</a></li>
+            <li><a href="https://github.com/maulidadzulfikri" class="github" target="_blank">maulidadzulfikri</a></li>
+            <li><a href="mailto:contact@maulidadzulfikri.com?subject=hi%20from%20nafcodes">say&nbsp;hello</a></li>
+            <li><a href="/feed">rss feed</a></li>
+            <li style="margin: 0; padding: 0;">
+                <hr class="overlord_nav" />
+            </li>
+            <li><a href="https://emde.web.id//about">about nafcodes</a></li>
+            <li><a href="https://emde.web.id//signup">sign up</a></li>
+        </ul>
+    </nav>
+
+    <div id="whiteout"></div>
+
+    <section id="container" class="blog user_post">
+        <article id="pwBe9jGwKBkshPCNsbJ3Gj" class="post  historical">
+
+            <time datetime="2019-04-27" class="article_time">April 27, 2019</time>
+
+            <h1 class="article_title">
+                <a href="https://emde.web.id//vim">The VIM Experience</a>
+            </h1>
+
+            {{ content }}
+
+            <figure class="postend kudo able clearfix" id="kudo_pwBe9jGwKBkshPCNsbJ3Gj">
+                <a href="#kudo">
+                    <div class="filling">&nbsp;</div>
+                </a>
+                <div class="num">311</div>
+                <div class="txt">Kudos</div>
+            </figure>
+            <figure class="side kudo able clearfix" id="kudo_side_pwBe9jGwKBkshPCNsbJ3Gj">
+                <a href="#kudo">
+                    <div class="filling">&nbsp;</div>
+                </a>
+                <div class="num">311</div>
+                <div class="txt">Kudos</div>
+            </figure>
+        </article>
+
+    </section>
+    <section id="readnext">
+        <a href="https://emde.web.id//rust-intro">
+            <h4 class="readnext_header">Now read this</h4>
+            <h3 class="readnext_title">A brief introduction to Rust</h3>
+            <p class="readnext_content">This blog post will take a deep dive into the Rust world of mutability. By deep dive, it means the blog post is considerably long. So it will take time to go through the different examples. The topic we will dive through is specific but... <span class="continue_btn">Continue&nbsp;&rarr;</span></p>
+        </a>
+    </section>
+    <footer id="blog_foot" class="cf">
+        <ul id="foot_links">
+            <li><a href="mailto:contact@maulidadzulfikri.com?subject=nafcodes">say hello</a></li>
+            <li><a href="https://emde.web.id/">maulidadzulfikri.com</a></li>
+        </ul>
+        <figure id="user_foot"><a href="/">nafcodes</a></figure>
+        <h5><a href="https://emde.web.id/">Maulida Dzul Fikri</a></h5>
+    </footer>
+    <footer id="foot">
+        <figure id="logo_foot"><a href="https://emde.web.id/">nafcodes</a></figure>
+        <a href="https://emde.web.id//terms" style="color: #ccc; margin-left: 25px;">Terms</a> <span style="color: #ccc;">•</span> <a href="https://emde.web.id//privacy" style="color: #ccc;">Privacy</a>
+        <span style="color: #ccc;">•</span> <a href="https://emde.web.id//promise" style="color: #ccc; margin-right: 15px;">Promise</a>
+        <br /><br />
+    </footer>
+
+    <div id="lights">&nbsp;</div>
+</body>
+
+</html>
