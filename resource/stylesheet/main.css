@@ -1125,6 +1125,14 @@ section#readnext p, section#readnext div {
     font-size: 15px
 }
 
+div#disqus_thread {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px
+}
+
 section#readnext span.continue_btn {
     border-bottom: 1px solid #e8e8e8;
     color: #515151;

@@ -216,11 +216,11 @@
             <h3 class="readnext_title">Bergabung dalam Konversasi</h3>
             <p class="readnext_content"><span class="continue_btn"></span></p>
         </a>
-
-            {% if page.comments %}
-            {% include comment.html %}
-            {% endif %}
     </section>
+
+    {% if page.comments %}
+    {% include comment.html %}
+    {% endif %}
 
     <footer id="blog_foot" class="cf">
         <ul id="foot_links">
