@@ -3,15 +3,19 @@
 
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>{{ page.title }}</title>
+
     <script src="/cdn-cgi/apps/head/8MhurJXoMj8lLTPQ85F0biC88Z8.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!--<link rel="shortcut icon" href="https://lightning.nafcodes.com/cargo/favicon-5ed3591b57f6a4f0d5cb82c6680b33bb1058fe757c71ccb094952824e7e00b17.ico">
     <link rel="icon" sizes="196x196" href="https://lightning.nafcodes.com/cargo/apple-touch-icon-d9dcfd2dfcd7ed475d31232aa402d68f4028c302edcc3421b3fb4c244a5cba1c.png">
     <link rel="mask-icon" href="https://lightning.nafcodes.com/cargo/default-ef4942fc393493a426f1cadc1e9a72ae0ebaa5985237d55ad567a61a8f4c594f.svg" color="black">
     <meta name="generator" content="nafcodes.com" />-->
-    <meta name="description" content="For the Vim crowd, my .vimrc file is available on Github. I got introduced to Vim 7 years ago. Getting started with Vim was a challenge. I think it was a typical experience: Vim has a steep learning curve and requires lots of customization to hit... | Maulida Dzul Fikri | nafcodes" />
+
+    <meta name="description" content="{{ page.description }}" />
     <link rel="canonical" href="/" />
+
     <!--<meta property="og:url" content="https://emde.web.id/vim" />
     <meta property="twitter:site" content="@nafcodes" />
     <meta property="twitter:title" content="The VIM Experience" />
@@ -19,7 +23,7 @@
     <meta property="twitter:creator" content="@" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://nafcodesusercontent.com/sLwFQybFpiiidA8cttk33B0xspap.gif" />
-    <meta property="twitter:domain" content="http://maulidadzulfikri.com" />
+    <meta property="twitter:domain" content="http://emde.web.id" />
     <meta property="og:title" content="The VIM Experience &bull; Maulida Dzul Fikri" />
     <meta property="og:type" content="article" />
     <meta property="og:description" content="For the Vim crowd, my .vimrc file is available on Github. I got introduced to Vim 7 years ago. Getting started with Vim was a challenge. I think it was a typical experience: Vim has a steep learning curve and requires lots of customization to hit... | Maulida Dzul Fikri | nafcodes" />
@@ -155,23 +159,21 @@
         <figure id="logo_top" class="">
             <a href="/">nafcodes</a>
         </figure>
-        <h2 id="nav_title" class="user_top"><a href="https://emde.web.id/">Maulida Dzul Fikri</a></h2>
+        <h2 id="nav_title" class="user_top"><a href="https://emde.web.id/">Emde Fikri</a></h2>
         <figure id="hamburger">
             <a href="#menu" id="hamburger_button">Menu</a>
         </figure>
         <ul id="dropdown" class="onblog">
             <li class="dropdown_message">
-                <a href="https://emde.web.id/">Maulida Dzul Fikri is writing on the <span class="logoize">nafcodes</span> network.</a>
+                <a href="https://emde.web.id/">Maulida Dzul Fikri adalah penulis di dalam jaringan <span class="logoize">Emde.web.id</span>.</a>
             </li>
-            <li><a href="https://emde.web.id/" target="_blank">maulidadzulfikri.com</a></li>
-            <li><a href="https://github.com/maulidadzulfikri" class="github" target="_blank">maulidadzulfikri</a></li>
-            <li><a href="mailto:contact@maulidadzulfikri.com?subject=hi%20from%20nafcodes">say&nbsp;hello</a></li>
+            <li><a href="https://emde.web.id/" target="_blank">emde.web.id</a></li>
+            <li><a href="mailto:contact@emde.web.id?subject=hi%20from%20nafcodes">say&nbsp;hello</a></li>
             <li><a href="/feed">rss feed</a></li>
             <li style="margin: 0; padding: 0;">
                 <hr class="overlord_nav" />
             </li>
-            <li><a href="https://emde.web.id//about">about nafcodes</a></li>
-            <li><a href="https://emde.web.id//signup">sign up</a></li>
+            <li><a href="https://emde.web.id/about">about nafcodes</a></li>
         </ul>
     </nav>
 
@@ -180,10 +182,10 @@
     <section id="container" class="blog user_post">
         <article id="pwBe9jGwKBkshPCNsbJ3Gj" class="post  historical">
 
-            <time datetime="2019-04-27" class="article_time">April 27, 2019</time>
+            <time datetime="{{ page.date }}" class="article_time">{{ page.date | date_to_string }}</time>
 
             <h1 class="article_title">
-                <a href="https://emde.web.id//vim">The VIM Experience</a>
+                <a href="{{ page.url }}">{{ page.heading }}</a>
             </h1>
 
             {{ content }}
@@ -214,8 +216,8 @@
     </section>
     <footer id="blog_foot" class="cf">
         <ul id="foot_links">
-            <li><a href="mailto:contact@maulidadzulfikri.com?subject=nafcodes">say hello</a></li>
-            <li><a href="https://emde.web.id/">maulidadzulfikri.com</a></li>
+            <li><a href="mailto:contact@emde.web.id?subject=nafcodes">say hello</a></li>
+            <li><a href="https://emde.web.id/">emde.web.id</a></li>
         </ul>
         <figure id="user_foot"><a href="/">nafcodes</a></figure>
         <h5><a href="https://emde.web.id/">Maulida Dzul Fikri</a></h5>
