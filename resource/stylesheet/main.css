@@ -1117,7 +1117,7 @@ section#readnext h3 {
     -moz-animation-timing-function: ease-in-out
 }
 
-section#readnext p {
+section#readnext p, section#readnext div {
     max-width: 600px;
     margin: 0 auto;
     padding-left: 10px;
