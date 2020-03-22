@@ -86,7 +86,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: 'Courier', monospace, serif;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 1em
 }
 
@@ -145,7 +145,7 @@ button,
 input,
 select,
 textarea {
-    font-family: inherit;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 100%;
     margin: 0
 }
@@ -255,7 +255,7 @@ header#user_top h2 {
     line-height: 38px;
     color: #000;
     font-weight: 900;
-    font-family: 'freight-sans-pro', sans-serif;
+    font-family: 'Inter', sans-serif;
     padding: 0;
     padding-left: 10px;
     padding-right: 10px;
@@ -284,7 +284,7 @@ header#user_top h4 {
     font-size: 14px;
     color: #777;
     font-weight: 700;
-    font-family: 'freight-sans-pro', sans-serif;
+    font-family: 'Inter', sans-serif;
     max-width: 450px;
     margin: 0 auto;
     margin-bottom: 0px;
@@ -563,7 +563,7 @@ form#new_nudge {
 p.nudged {
     color: #44bf07;
     font-weight: 900;
-    font-family: 'freight-sans-pro', sans-serif;
+    font-family: 'Inter', sans-serif;
     text-transform: uppercase;
     display: none;
     font-size: 30px;
@@ -579,7 +579,7 @@ h6.separator_title {
     padding-right: 10px;
     text-transform: uppercase;
     font-weight: 900;
-    font-family: 'freight-sans-pro', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #ccc
 }
 
@@ -700,7 +700,7 @@ time.article_time {
     margin-top: 0px;
     margin-bottom: 5px;
     opacity: 0.05;
-    font-family: 'freight-sans-pro', 'proxima-nova', 'Helvetica';
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 14px;
     color: #1d1d1d;
@@ -1047,7 +1047,7 @@ section#container.user_post {
 }
 
 section#container.user_post h1.article_title {
-    font-family: 'freight-sans-pro', 'proxima-nova', 'Helvetica';
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 43px;
     line-height: 44px;
@@ -1079,7 +1079,7 @@ section#readnext:hover p span {
 
 section#readnext h4 {
     font-weight: 700;
-    font-family: 'freight-sans-pro', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
     color: #000;
     margin: 0px;
@@ -1093,7 +1093,7 @@ section#readnext h4 {
 
 section#readnext h3 {
     font-weight: 700;
-    font-family: 'freight-sans-pro', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 25px;
     line-height: 28px;
     max-width: 600px;
@@ -1306,7 +1306,7 @@ figure.kudo div.txt {
 }
 
 figure.kudo div.num {
-    font-family: "freight-sans-pro", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 22px;
     font-weight: 700;
     color: #000;
@@ -1317,7 +1317,7 @@ figure.kudo div.num {
 figure.kudo div.txt {
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: "freight-sans-pro", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 66px
@@ -1434,7 +1434,7 @@ div.preview {
 div.preview strong {
     color: #000;
     font-size: 20px;
-    font-family: 'freight-sans-pro', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
     display: block;
@@ -1649,7 +1649,7 @@ div.preview p {
     }
 
     figure.kudo div.num {
-        font-family: "freight-sans-pro", sans-serif;
+        font-family: 'Inter', sans-serif;
         font-size: 28px;
         font-weight: 700;
         color: #000;
@@ -1708,7 +1708,7 @@ div.preview p {
         padding-right: 10px;
         text-transform: uppercase;
         font-weight: 700;
-        font-family: 'freight-sans-pro', sans-serif;
+        font-family: 'Inter', sans-serif;
         color: #ccc
     }
 }
@@ -1748,7 +1748,7 @@ div.preview p {
 }
 
 body {
-    font-family: 'proxima-nova', 'Helvetica', 'Avenir', 'Arial', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     background-color: #fff
 }
@@ -1763,7 +1763,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'proxima-nova', 'Helvetica', 'Avenir', 'Arial', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #3a3a3a;
     margin-top: 25px;
     margin-bottom: 20px
@@ -1775,7 +1775,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-    font-family: 'freight-sans-pro', 'Helvetica', 'Avenir', 'Arial', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: inherit
 }
 
@@ -1824,7 +1824,7 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #4D4D4D;
-    font-family: 'proxima-nova', 'Helvetica', 'Avenir', 'Arial', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400
 }
 
@@ -2171,7 +2171,7 @@ pre code ol li {
 
 article pre code ul li,
 article pre code ol li {
-    font-family: 'Courier', monospace, monospace;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;
     line-height: 16px
 }
@@ -2468,7 +2468,7 @@ figure#logo_foot {
 figure#logo_foot a {
     display: inline-block;
     font-weight: 900;
-    font-family: 'freight-sans-pro', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 17px;
     letter-spacing: -1px;
     text-transform: uppercase;
@@ -2717,7 +2717,7 @@ figure#logo_top a {
 
 nav#overlord h2#nav_title.user_top {
     font-weight: 900;
-    font-family: 'freight-sans-pro', sans-serif;
+    font-family: 'Inter', sans-serif;
     text-transform: uppercase;
     margin-left: 70px
 }
@@ -2864,7 +2864,7 @@ nav#overlord ul#dropdown li a.logoize {
     text-transform: uppercase;
     display: block;
     margin-top: 10px;
-    font-family: 'freight-sans-pro', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #000
 }
 
@@ -2970,7 +2970,7 @@ nav#overlord ul#dropdown li.dropdown_message a span {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 17px;
-    font-family: 'freight-sans-pro', sans-serif
+    font-family: 'Inter', sans-serif;
 }
 
 hr.overlord_nav {
