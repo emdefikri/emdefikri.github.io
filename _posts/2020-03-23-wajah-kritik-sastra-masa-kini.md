@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Sebuah Dependensi: Beginikah Memandang Wajah Kritik Sastra Masa Kini?
+title: "Sebuah Dependensi: Beginikah Memandang Wajah Kritik Sastra Masa Kini?"
 description: Sastra memerlukan kritik yang memadai, sehingga pada akhirnya menemukan bentuk dan isi yang saling kait.
 keyword: [sastra, kritik]
 heading: Wajah Kritik Sastra Masa Kini
