@@ -15,6 +15,8 @@ date: 2020-03-22
 
 Sejak akhir 1980-an, teori Gender dan Seksualitas telah mendefinisikan kembali bagaimana kita berpikir tentang budaya dan masyarakat. Mereka telah mengajukan pertanyaan baru tentang konstruksi subjek yang berdasarkan gender dan seksual dan mengemukakan ide-ide baru yang radikal tentang KINERJA dan PERFORMATIVITAS sebagai sarana yang dengannya tubuh menjadi SIGNIFYING SYSTEM dalam FORMATIONS SOSIAL.
 
+<!--more-->
+
 Pada dasar sebagian besar teori Gender dan Seksualitas adalah kritik menyeluruh terhadap SUBYEK dan SUBYEKTIVITAS. Sebagai kategori sosial dan politik, subjek melintasi semua batas disiplin ilmu dan teoretis. Menjadi subjek dapat berarti banyak hal - warga negara dari komunitas tertentu, AUTONOMOUS yang memiliki rasa keutuhan dan persatuan pribadi, subjek penguasa yang menindas atau wacana. Namun, menjadi subjek dan memiliki subjektivitas bukanlah hak asasi semua manusia; mereka adalah atribut khusus, lebih atau kurang unik untuk budaya Barat atau Barat.
 
 Gagasan tentang subjek modern ini dimulai pada Pencerahan, dengan refleksi dari John Locke, yang menganggap identitas pribadi sebagai unik, berdaulat, dan otonom. Subjektivitas, kesadaran agensi historis dan sosial seseorang, adalah hak prerogatif individu Barat yang mendefinisikan dirinya sebagai lawan OTHER , terhadap sesuatu yang bukan subjek dan tidak memiliki subjektivitas. Ungkapan filosofis klasik dari hubungan subjek ini dengan subjek yang bukan subjeknya adalah dialektika Hegel tentang master dan slave.

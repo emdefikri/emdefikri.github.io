@@ -17,6 +17,8 @@ Kritik sastra harus ditempatkan sebagai kajian yang memusatkan diri pada karya s
 
 [![Emde Fikri](/resource/image/emde-fikri.jpg)](/resource/image/emde-fikri.jpg)
 
+<!--more-->
+
 Kritik kerap kali hanya berhenti di tataran deskriptif, belum sampai ke tataran argumentatif. Bahwa sering mengemuka, praktek menginventarisasi teknik dan atau meringkas isi karya sastra atau bahkan menjadi semacam sinopsis yang berkepanjangan, tanpa memberikan analisis yang memadai, tidak melangkah lebih jauh dengan mengajukan argumen tentang teknik ataupun isi karya tersebut, apalagi mengaitkannya dengan kesusasteraan secara umum. Tersebut merupakan kritik sastra yang cenderung lugu.
 
 Bahkan, kritik sastra seringkali menggunakan teori dan acuan teoritis yang hubungannya jauh dengan unsur-unsur dalam karya. Tak ayal yang demikian memperlihatkan ambisi teoritik yang terlalu berat, justru membenamkan karya-karya yang bersangkutan. Dalam hal lain, malah cenderung menampilkan teori teori sebagai tidak lebih dari parade kutipan-kutipan yang sangat tidak sebanding dengan temuan mengenai karya-karya sastra yang bersangkutan.
