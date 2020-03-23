@@ -692,7 +692,7 @@ article h5:hover a.head_anchor {
     border: none
 }
 
-time.article_time {
+time.article_time, address.article_author {
     max-width: 600px;
     margin: 0 auto;
     text-transform: uppercase;
