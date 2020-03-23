@@ -4,7 +4,7 @@ comments: true
 title: "Sebuah Dependensi: Memandang Wajah Kritik Sastra Masa"
 heading: Wajah Kritik Sastra Masa
 description: Sastra memerlukan kritik yang memadai, sehingga pada akhirnya menemukan bentuk dan isi yang saling kait.
-image: https://emde.web.id/image/emde-fikri.jpg
+image: https://emde.web.id/resource/image/emde-fikri.jpg
 categories: sastra indonesia
 tags: sastra
 date: 2020-03-23
@@ -12,7 +12,7 @@ date: 2020-03-23
 
 Kritik sastra harus ditempatkan sebagai kajian yang memusatkan diri pada karya sastra tertentu dengan sesungguhnya dan seadil-adilnya. Karenanya, tak bisa disebut kritik sastra jika hanya berputar-putar di luar. Kritik sastra yang hanya sibuk dengan riwayat hidup pengarang dan sejarah sastra, semisal. Pun kritik sosiologis yang tak membenturkan diri ke dalam pokok karya sastra yang hendak dibahasnya.
 
-![Emde Fikri](/image/emde-fikri.jpg)
+![Emde Fikri](/resource/image/emde-fikri.jpg)
 
 Kritik kerap kali hanya berhenti di tataran deskriptif, belum sampai ke tataran argumentatif. Bahwa sering mengemuka, praktek menginventarisasi teknik dan atau meringkas isi karya sastra atau bahkan menjadi semacam sinopsis yang berkepanjangan, tanpa memberikan analisis yang memadai, tidak melangkah lebih jauh dengan mengajukan argumen tentang teknik ataupun isi karya tersebut, apalagi mengaitkannya dengan kesusasteraan secara umum. Tersebut merupakan kritik sastra yang cenderung lugu.
 
