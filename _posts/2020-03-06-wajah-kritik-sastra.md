@@ -1,11 +1,11 @@
 ---
 layout: post
 comments: true
-title: "Lorem Ipsum Dolor Sit Amet"
-heading: "Lorem Ipsum"
-description: "Foo & bar."
-categories: "film, sinema"
-tags: "hollywood"
+title: "Sebuah Dependensi: Memandang Wajah Kritik Sastra Masa"
+heading: Wajah Kritik Sastra Masa
+description: Sastra memerlukan kritik yang memadai, sehingga pada akhirnya menemukan bentuk dan isi yang saling kait.
+categories: sastra indonesia
+tags: sastra
 date: 2020-03-16
 ---
 
