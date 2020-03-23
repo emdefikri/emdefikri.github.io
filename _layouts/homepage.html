@@ -229,7 +229,7 @@
         <article id="9rTjtwY1ujKsQRCtoQZeTn" class="post user_show">
             <time datetime="2019-12-20" class="article_time">{{ post.date | date_to_string }}</time>
             <h1 class="article_title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.heading }}</a></h1>
-            <a href="/the-modern-web" class="content">
+            <a href="{{ post.url }}" class="content">
                 {{ post.excerpt }}
             </a>
             <p class="continue_mark"><a href="{{ post.url }}" class="buttonize outline small">Lanjutkan membaca &rarr;</a></p>
