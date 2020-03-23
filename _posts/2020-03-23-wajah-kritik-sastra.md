@@ -4,6 +4,7 @@ comments: true
 title: "Sebuah Dependensi: Memandang Wajah Kritik Sastra Masa"
 heading: Wajah Kritik Sastra Masa
 description: Sastra memerlukan kritik yang memadai, sehingga pada akhirnya menemukan bentuk dan isi yang saling kait.
+author: Maulida Dzul Fikri
 image: https://emde.web.id/resource/image/emde-fikri.jpg
 categories: sastra indonesia
 tags: sastra
