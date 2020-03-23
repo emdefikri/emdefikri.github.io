@@ -1,3 +1,5 @@
 name: Emde Fikri a.k.a. Maulida Dzul Fikri
 markdown: kramdown
 permalink: /:title
+plugins:
+  - jekyll-feed
