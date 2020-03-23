@@ -35,183 +35,21 @@
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Inter:100,200,300,400,500,600,700,800,900&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
     <link rel="stylesheet" media="all" href="/resource/stylesheet/main.css" data-turbolinks-track="reload">
     <script src="/resource/script/main.js" data-turbolinks-track="reload"></script>
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-142986996-1');
-        ga('send', 'pageview');
-        // Create a new tracker for the user on analytics.js and send the pageview
-        ga('create', 'UA-142986996-1', {
-            'name': 'userTracker'
-        });
-        ga('userTracker.send', 'pageview');
-        // Backwards compatibility--create an old ga.js for the user
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-142986996-1'], ['_setDomainName', 'none'], ['_setAllowLinker', true], ['_trackPageview'], ['b._setAccount', 'UA-32638959-1'], ['b._setDomainName', 'omarabid.com'], ['b._setAllowLinker', true], ['b._trackPageview']);
-        (function() {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
+    {% include analyticts.html %}
 </head>
 
 <body class="overlord blog">
 
-    <style scoped>
-        figure.avatar a,
-        figure#user_logo a,
-        figure#user_foot a,
-        nav#overlord.user_top figure#logo_top a,
-        figure.kudo.complete div.filling {
-            background-image: url('https://nafcodesusercontent.com/aFjM4Bj7zgJVkagR67Xkki17580xsbap_medium.png')
-        }
-
-        figure.kudo.activated div.filling,
-        figure.kudo.complete div.filling {
-            background-color: #050213;
-        }
-
-        figure.kudo.activated a,
-        figure.kudo.complete a {
-            border-color: #050213;
-        }
-
-        blockquote,
-        a blockquote,
-        div#readnext:hover span.flank_title,
-        div#foot_more:hover a,
-        div#foot_userbar a#bottom_tagline span:hover,
-        article.linked h1.article_title a:hover,
-        a.continue_button:hover,
-        article p a:hover,
-        ul#lightning_drop,
-        figure#user_logo,
-        figure#user_foot,
-        ul#user_links li a:hover,
-        ul#foot_links li a:hover,
-        a.buttonize:hover,
-        button.buttonize:hover,
-        a.buttonize.outline:hover,
-        button.buttonize.outline:hover,
-        nav.pagination span.next a:hover,
-        nav.pagination span.prev a:hover,
-        section#readnext:hover p span,
-        nav#overlord.user_top figure#logo_top {
-            border-color: #050213;
-        }
-
-        figure.avatar,
-        nav#overlord.user_top figure#logo_top a,
-        ul#user_links li a:hover,
-        ul#foot_links li a:hover,
-        a.buttonize:hover,
-        button.buttonize:hover,
-        a.buttonize.outline:hover,
-        button.buttonize.outline:hover,
-        nav.pagination span.next a:hover,
-        nav.pagination span.prev a:hover,
-        figure#user_logo a,
-        figure#user_foot a {
-            background-color: #050213;
-        }
-
-        h6.separator_title.read_first,
-        header#user_top h2 a,
-        footer#blog_foot h5 a,
-        article.post h1 a:hover,
-        div.preview strong,
-        nav#overlord h2#nav_title.user_top a,
-        section#readnext:hover h3,
-        section#readnext:hover p span {
-            color: #050213;
-        }
-
-        @keyframes titlePulse {
-            0% {
-                color: #000000;
-            }
-
-            50% {
-                color: #050213;
-            }
-
-            100% {
-                color: #000000;
-            }
-        }
-
-        @-moz-keyframes titlePulse {
-            0% {
-                color: #000000;
-            }
-
-            50% {
-                color: #050213;
-            }
-
-            100% {
-                color: #000000;
-            }
-        }
-
-        @-webkit-keyframes titlePulse {
-            0% {
-                color: #000000;
-            }
-
-            50% {
-                color: #050213;
-            }
-
-            100% {
-                color: #000000;
-            }
-        }
-    </style>
+    {% include scopde.html %}
 
     <figure id="loading">&nbsp;</figure>
 
-    <nav id="overlord" class="user_top">
-        <figure id="logo_top" class="">
-            <a href="/">Emde Fikri</a>
-        </figure>
-        <h2 id="nav_title" class="user_top"><a href="/">Emde Fikri</a></h2>
-        <figure id="hamburger">
-            <a href="#menu" id="hamburger_button">Menu</a>
-        </figure>
-        <ul id="dropdown" class="onblog">
-            <li class="dropdown_message">
-                <a href="/">Maulida Dzul Fikri adalah penulis di dalam jaringan <span class="logoize">Emde.web.id</span>.</a>
-            </li>
-            <li><a href="/journal">Jurnal</a></li>
-            <li><a href="/links">Tautan</a></li>
-            <li><a href="/articles">Artikel</a></li>
-            <li><a href="/notes">Catatan</a></li>
-            <li><a href="/about">Tentang</a></li>
-            <li style="margin: 0; padding: 0;">
-                <hr class="overlord_nav" >
-            </li>
-            <li><a href="/feed">Feed</a></li>
-        </ul>
-    </nav>
+    {% include nav.html %}
 
     <div id="whiteout"></div>
 
     <section id="container" class="blog user_post">
-        <article id="pwBe9jGwKBkshPCNsbJ3Gj" class="post  historical">
+        <article class="post historical">
 
             <time datetime="{{ page.date }}" class="article_time">{{ page.date | date_to_string }}</time>
 
@@ -223,7 +61,7 @@
 
             {{ content }}
 
-            <figure class="postend kudo able clearfix">
+            <!--<figure class="postend kudo able clearfix">
                 <a href="#kudo">
                     <div class="filling">&nbsp;</div>
                 </a>
@@ -237,7 +75,7 @@
                 </a>
                 <div class="num">311</div>
                 <div class="txt">Pembaca</div>
-            </figure>
+            </figure>-->
 
         </article>
 
@@ -254,26 +92,7 @@
         {% endif %}
     </section>
 
-    <footer id="blog_foot" class="cf">
-        <ul id="foot_links">
-            <li><a href="https://www.facebook.com/emdefikri" rel="nofollow noopener noindex noreferrer">Facebook</a></li>
-            <li><a href="https://twitter.com/emde_fikri" rel="nofollow noopener noindex noreferrer">Twitter</a></li>
-            <li><a href="https://www.instagram.com/emde_fikri" rel="nofollow noopener noindex noreferrer">Instagram</a></li>
-            <li><a href="https://www.linkedin.com/in/maulida-dzul-fikri-89921b143" rel="nofollow noopener noindex noreferrer">LinkedIn</a></li>
-            <li><a href="https://www.youtube.com/channel/UC45nKu7ItqrQe2GnooY7JWQ" rel="nofollow noopener noindex noreferrer">Youtube</a></li>
-            <li><a href="https://medium.com/@emdefikri" rel="nofollow noopener noindex noreferrer">Medium</a></li>
-            <li><a href="https://uinjkt.academia.edu/MaulidaDzulFikri" rel="nofollow noopener noindex noreferrer">Academia</a></li>
-        </ul>
-        <figure id="user_foot"><a href="https://nafcodes.com">nafcodes</a></figure>
-        <h5><a href="/">Emde Fikri</a></h5>
-    </footer>
-
-    <footer id="foot">
-        <figure id="logo_foot"><a href="https://nafcodes.com">nafcodes</a></figure>
-        <a href="/terms" style="color: #ccc; margin-left: 25px;">Pesyaratan</a> <span style="color: #ccc;">•</span> <a href="/privacy" style="color: #ccc;">Privasi</a>
-        <span style="color: #ccc;">•</span> <a href="/promise" style="color: #ccc; margin-right: 15px;">Kebijakan</a>
-        <br ><br >
-    </footer>
+    {% include footer.html %}
 
     <div id="lights">&nbsp;</div>
 </body>
