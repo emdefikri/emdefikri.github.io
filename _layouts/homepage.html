@@ -230,14 +230,7 @@
             <time datetime="2019-12-20" class="article_time">{{ post.date | date_to_string }}</time>
             <h1 class="article_title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.heading }}</a></h1>
             <a href="/the-modern-web" class="content">
-                <blockquote>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </blockquote>
+                {{ post.excerpt }}
             </a>
             <p class="continue_mark"><a href="{{ post.url }}" class="buttonize outline small">Lanjutkan membaca &rarr;</a></p>
         </article>

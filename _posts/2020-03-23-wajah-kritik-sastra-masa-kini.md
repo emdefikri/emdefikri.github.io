@@ -9,6 +9,7 @@ author: Maulida Dzul Fikri
 image: https://emde.web.id/resource/image/emde-fikri.jpg
 categories: [sastra, indonesia]
 tags: [sastra, bahasa]
+excerpt_separator: <!--more-->
 date: 2020-03-23
 ---
 
