@@ -1,9 +1,11 @@
+url: "https://emde.web.id"
 name: Emde Fikri a.k.a. Maulida Dzul Fikri
 markdown: kramdown
 permalink: /:title
 plugins:
   - jekyll-feed
   - jekyll-archives
+  - jekyll-sitemap
 jekyll-archives:
   enabled: []
   layout: archive
