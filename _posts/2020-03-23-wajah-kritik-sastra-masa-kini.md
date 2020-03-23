@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title: "Sebuah Dependensi: Beginikah Memandang Wajah Kritik Sastra Masa Kini?"
+title: Sebuah Dependensi: Beginikah Memandang Wajah Kritik Sastra Masa Kini?
 description: Sastra memerlukan kritik yang memadai, sehingga pada akhirnya menemukan bentuk dan isi yang saling kait.
-keyword: sastra,kritik
+keyword: [sastra, kritik]
 heading: Wajah Kritik Sastra Masa Kini
 author: Maulida Dzul Fikri
 image: https://emde.web.id/resource/image/emde-fikri.jpg
-categories: sastra indonesia
-tags: sastra
+categories: [sastra, indonesia]
+tags: [sastra, bahasa]
 date: 2020-03-23
 ---
 

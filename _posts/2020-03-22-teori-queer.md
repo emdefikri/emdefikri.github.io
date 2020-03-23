@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title: "Apa Itu Queer?"
+title: Apa Itu Queer?
 description: Teori queer adalah ...
-keyword: sastra,kritik
+keyword: [sastra, kritik]
 heading: Teori Queer
 author: Maulida Dzul Fikri
 image: https://emde.web.id/resource/image/emde-fikri.jpg
-categories: sastra indonesia
-tags: sastra
+categories: [sastra, indonesia]
+tags: [sastra, bahasa]
 date: 2020-03-22
 ---
 
