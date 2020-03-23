@@ -11,6 +11,7 @@ categories: [sastra, indonesia]
 tags: [sastra, bahasa]
 excerpt_separator: <!--more-->
 date: 2020-03-23
+published: true
 ---
 
 Kritik sastra harus ditempatkan sebagai kajian yang memusatkan diri pada karya sastra tertentu dengan sesungguhnya dan seadil-adilnya. Karenanya, tak bisa disebut kritik sastra jika hanya berputar-putar di luar. Kritik sastra yang hanya sibuk dengan riwayat hidup pengarang dan sejarah sastra, semisal. Pun kritik sosiologis yang tak membenturkan diri ke dalam pokok karya sastra yang hendak dibahasnya.

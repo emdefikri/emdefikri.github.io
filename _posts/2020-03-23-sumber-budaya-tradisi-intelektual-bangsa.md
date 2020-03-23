@@ -11,6 +11,7 @@ categories: [sastra, indonesia]
 tags: [sastra, bahasa]
 excerpt_separator: <!--more-->
 date: 2020-03-23
+published: true
 ---
 
 Manuskrip atau yang lebih kita kenal dengan sebutan naskah kuno, yaitu bentuk fisik naskah yang berupa karangan yang masih ditulis dengan tangan dan belum diterbitkan. Adapun bahan yang digunakan yaitu kertas (kebanyakan kertas Eropa), lontar (kertas lokal dari daun lontar), kulit kayu, daun luwang (kertas lokal dari daun saeh), kulit binatang, bambu dan lainnya.

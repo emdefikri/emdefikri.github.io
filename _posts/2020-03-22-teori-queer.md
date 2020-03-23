@@ -11,6 +11,7 @@ categories: [sastra, indonesia]
 tags: [sastra, bahasa]
 excerpt_separator: <!--more-->
 date: 2020-03-22
+published: true
 ---
 
 Sejak akhir 1980-an, teori Gender dan Seksualitas telah mendefinisikan kembali bagaimana kita berpikir tentang budaya dan masyarakat. Mereka telah mengajukan pertanyaan baru tentang konstruksi subjek yang berdasarkan gender dan seksual dan mengemukakan ide-ide baru yang radikal tentang KINERJA dan PERFORMATIVITAS sebagai sarana yang dengannya tubuh menjadi SIGNIFYING SYSTEM dalam FORMATIONS SOSIAL.
