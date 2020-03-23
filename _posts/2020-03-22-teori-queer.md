@@ -9,7 +9,7 @@ author: Maulida Dzul Fikri
 image: https://emde.web.id/resource/image/emde-fikri.jpg
 categories: sastra indonesia
 tags: sastra
-date: 2020-03-23
+date: 2020-03-22
 ---
 
 Sejak akhir 1980-an, teori Gender dan Seksualitas telah mendefinisikan kembali bagaimana kita berpikir tentang budaya dan masyarakat. Mereka telah mengajukan pertanyaan baru tentang konstruksi subjek yang berdasarkan gender dan seksual dan mengemukakan ide-ide baru yang radikal tentang KINERJA dan PERFORMATIVITAS sebagai sarana yang dengannya tubuh menjadi SIGNIFYING SYSTEM dalam FORMATIONS SOSIAL.
